@@ -1,0 +1,9 @@
+emailaccountA@domain1.com PasswordA
+emailaccountB@domain1.com PasswordB
+emailaccountC@domain1.com PasswordC
+emailaccountA@domaintwo.com PasswordA
+emailaccountB@domaintwo.com PasswordB
+emailaccountC@domaintwo.com PasswordC
+emailaccountA@domaiexample.com PasswordA
+emailaccountB@domaiexample.com PasswordB
+emailaccountC@domaiexample.com PasswordC
