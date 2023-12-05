@@ -2,7 +2,6 @@ Script for Creating Multiple Email Accounts on Plesk/Linux
 Overview
 This script enables the creation of multiple email accounts for a single domain or multiple domains on a Plesk/Linux server.
 
-$ sudo -i
 Step 1: Navigate to the Root Directory
 Change to the root directory using the command:
 cd /home/root/
