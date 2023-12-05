@@ -1,21 +1,24 @@
-This script allows you to create multiple email accounts for one domain or multiple domains on Plesk/Linux. It has been tested on Plesk Onyx and Plesk Obsidian 18.0.44 #3, as well as Centos 7/8, Almalinux 8, Cloudlinux 8, Ubuntu 18.04/20.04LTS.
-
-How to Use
-Connect via SSH to your Plesk server and login as root.
-
+Script for Creating Multiple Email Accounts on Plesk/Linux
+Overview
+This script enables the creation of multiple email accounts for a single domain or multiple domains on a Plesk/Linux server.
 
 $ sudo -i
+Step 2: Navigate to the Root Directory
+Change to the root directory using the command:
 
-Navigate to the root directory.
-# cd /home/root/
+cd /home/root/
+Step 3: Create an Email List
+Create an email list using a text editor like Vim or Nano. Save it as a .txt file, or upload it via SFTP. Refer to example_emaillist.txt for the correct syntax.
 
+nano emaillist.txt
+Step 4: Run the Script
+Execute the createemail.sh script with your email list as a parameter.
 
-Create an email list using Vim or Nano and save it as a .txt file, or upload it via SFTP. See the example_emaillist.txt file for the syntax.
-# nano emaillist.txt
+./createemail.sh emaillist.txt
+Once the script runs successfully, your email accounts will be created.
 
-Once you have created your email list, run the createemail.sh script, specifying your email list as a parameter.
-# ./createemail.sh emaillist.txt
-Your email accounts will be created and you're done!
 
 Important Note
-Please make sure to review the example_emaillist.txt file and follow the syntax carefully to avoid errors. Also, be sure to only run this script on a trusted server and do not use it for malicious purposes.
+Ensure that you review the example_emaillist.txt file and follow the syntax to avoid errors.
+Run this script only on trusted servers.
+Do not use the script for malicious purposes.
